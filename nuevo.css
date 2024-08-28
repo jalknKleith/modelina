@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url(menui.css);
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color:rgba(255, 246, 216, 0.8);
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(255, 246, 216, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+header .container{
+    display: table;
+}
+
+.menu a:hover{
+    width: 115px;
+    height: 40px;
+    text-shadow: 2px 1px white;
+    color: rgb(157, 104, 104);
+}
+.menu i{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: -10px;
+}
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+.titulo2{
+    font-size: 30px;
+    text-align: center;
+}
+.ubicacion{
+    font-size: 50px;
+    text-align: center;
+}
+.contacto i{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: -10px;
+    color: black;
+
+}
+.contacto i:hover{
+    width: 60px;
+    height: 50px;
+    box-shadow: 4px 2px gray;
+    text-shadow: 2px 1px white;
+    color: rgb(157, 104, 104);
+}
